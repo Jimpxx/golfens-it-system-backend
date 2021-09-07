@@ -10,6 +10,12 @@ const app = express()
 app.use(cors());
 app.use(express.json())
 
+app.get("/", (req, res) => {
+  res.json({
+    message: "GIT (Golfens IT System) Backend"
+  });
+})
+
 app.post("/medlemsmatrikel", (req, res) => {
     const {guid, gitUsername, gitPassword} = req.body;
     const url = "https://gitsys.golf.se/WSAPI/Ver_3/Member/Member3.asmx"
