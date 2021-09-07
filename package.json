@@ -1,0 +1,18 @@
+{
+  "name": "golfens-it-system-backend",
+  "version": "1.0.0",
+  "description": "A simple application for the GIT (Golfens IT System).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Jimmy Andersson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "xml2js": "^0.4.23"
+  }
+}
