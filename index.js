@@ -168,8 +168,9 @@ app.post("/login", (req, res) => {
          
 })
 
+const host = "0.0.0.0";
 const port = 4000;
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+app.listen(port, host, () => {
+    console.log(`Example app listening at http://${host}:${port}`)
 })
