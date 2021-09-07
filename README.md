@@ -1,4 +1,4 @@
 Golfens IT System Backend
 ===============
 
-This application is for the GIT backend.
+This project is a node application that is running in an docker container with the webserver Caddy (v2).
